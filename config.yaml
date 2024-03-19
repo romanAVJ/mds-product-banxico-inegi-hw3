@@ -1,0 +1,16 @@
+inegi:
+  series:
+    inpc: 628194
+  starting_date: 2018-01-01
+banxico:
+  series:
+    dollar_fx: SF63528
+    tiie: SF43783
+  starting_date: 2018-01-01
+aws:
+  bucket: itam-analytics-roman
+  sub-bucket: homeworks/banxico-inegi
+  filenames:
+    inpc: inflacion.csv
+    dollar_fx: tipo_de_cambio.csv
+    tiie: tasa_de_interes.csv
