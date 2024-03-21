@@ -9,8 +9,11 @@ banxico:
   starting_date: 2018-01-01
 aws:
   bucket: itam-analytics-roman
+  bucket_queries: itam-analytics-roman-queries
   sub-bucket: homeworks/banxico-inegi
   filenames:
     inpc: inflacion.csv
     dollar_fx: tipo_de_cambio.csv
     tiie: tasa_de_interes.csv
+  database: econ
+  elt_table_name: banxico_inegi

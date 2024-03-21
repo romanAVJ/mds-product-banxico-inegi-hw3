@@ -7,3 +7,7 @@ python-dotenv==1.0.1
 tqdm==4.66.2
 inegipy==1.2.1
 sie-banxico==0.0.1
+pyathena==3.5.1
+statsmodels==0.14.1
+matplotlib==3.8.3
+seaborn==0.13.2
